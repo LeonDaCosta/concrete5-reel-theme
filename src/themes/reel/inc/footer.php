@@ -51,4 +51,4 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
     </div>
     </section>
 </footer>
-<?php $this->inc('elements/footer_bottom.php');?>
+<?php $this->inc('inc/footer_bottom.php');?>
