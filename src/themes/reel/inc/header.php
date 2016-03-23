@@ -5,8 +5,8 @@ $blocks = $as->getTotalBlocksInArea();
 $displayThirdColumn = $blocks > 0 || $c->isEditMode();
 ?>
 <header>
-    <div class="container">
-        <div class="row">
+    <section class="container">
+        <nav class="row">
             <div class="col-sm-4 col-xs-6">
                 <?php
                 $a = new GlobalArea('Header Site Title');
@@ -22,6 +22,6 @@ $displayThirdColumn = $blocks > 0 || $c->isEditMode();
             <?php if ($displayThirdColumn) { ?>
                 <div class="col-sm-3 col-xs-12"><?php $as->display(); ?></div>
             <?php } ?>
-        </div>
-    </div>
+        </nav>
+    </section>
 </header>
