@@ -3,11 +3,9 @@ $this->inc('elements/header_top.php');
 $as = new GlobalArea('Header Search');
 $blocks = $as->getTotalBlocksInArea();
 $displayThirdColumn = $blocks > 0 || $c->isEditMode();
-
 ?>
-
 <header>
-    <div class="container">
+    <section class="container">
         <div class="row">
             <div class="col-sm-4 col-xs-6">
                 <?php
@@ -25,5 +23,5 @@ $displayThirdColumn = $blocks > 0 || $c->isEditMode();
                 <div class="col-sm-3 col-xs-12"><?php $as->display(); ?></div>
             <?php } ?>
         </div>
-    </div>
+    </section>
 </header>
