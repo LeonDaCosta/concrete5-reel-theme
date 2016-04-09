@@ -1,0 +1,6 @@
+nav {
+  position: fixed;
+  background: none;
+  z-index: 1000;
+  width: 100%;
+}

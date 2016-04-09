@@ -5,6 +5,7 @@ $blocks = $as->getTotalBlocksInArea();
 $displayThirdColumn = $blocks > 0 || $c->isEditMode();
 ?>
 <header>
+  <nav>
     <section class="container">
         <div class="row">
             <div class="col-sm-4 col-xs-6">
@@ -24,4 +25,5 @@ $displayThirdColumn = $blocks > 0 || $c->isEditMode();
             <?php } ?>
         </div>
     </section>
+  </nav>
 </header>
