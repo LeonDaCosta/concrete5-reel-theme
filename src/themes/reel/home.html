@@ -18,13 +18,35 @@
 STRUCTURE
 *************************************************************************************/
 
-html, body{ padding:0;margin:0; }
+html, body{ padding:0;margin:0; background: #FAFAFA;}
 
-#intro{ width:100%;height:20px;background-color:blue; }
+#intro{ width:100%;height:20px;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #4D4D4D),
+		color-stop(0.39, #262626),
+		color-stop(1, #080A0A)
+	);
+	background-image: -o-linear-gradient(bottom, #4D4D4D 0%, #262626 39%, #080A0A 100%);
+	background-image: -moz-linear-gradient(bottom, #4D4D4D 0%, #262626 39%, #080A0A 100%);
+	background-image: -webkit-linear-gradient(bottom, #4D4D4D 0%, #262626 39%, #080A0A 100%);
+	background-image: -ms-linear-gradient(bottom, #4D4D4D 0%, #262626 39%, #080A0A 100%);
+	background-image: linear-gradient(to bottom, #4D4D4D 0%, #262626 39%, #080A0A 100%);
+}
 
-nav{ width:100%;background-color:yellow;height:70px; }
+nav{ width:100%;height:70px;border-bottom: 1px solid #CCCCCC;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(230,230,230,1);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(230,230,230,1);
+	box-shadow: 0px 5px 5px 0px rgba(230,230,230,1);
+ }
 
-#main-main{ display:block;list-style:none outside; }
+nav ul { list-style: none; box-sizing: border-box; margin: 0 0 0 200px; padding: 0; }
+
+nav ul li{ float: left; margin: 18px; font-size: 20px }
+
+#main-main{ display:block; list-style:none outside; }
 
 .main-content{ min-height:300px}
 
@@ -72,7 +94,9 @@ MEDIA QUERIES
 			<li>Contact Us</li>
 		</ul>
 	</nav>
+
 	 <!-- <div class="container-fluid"> -->
+
 	<section class="main-content container-fluid">
 		<div class="row">
 	<div class="col-sm-6">
@@ -176,10 +200,9 @@ MEDIA QUERIES
 			</div>
 		</div>
 	</section>
+
 <!--	</div> -->
 
-	<footer>
-
-	</footer>
+	<footer> </footer>
 </body>
 </html>
