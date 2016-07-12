@@ -50,9 +50,15 @@ nav ul { list-style: none; box-sizing: border-box; margin: 0 0 0 100px; padding:
 
 nav ul li{ float: left; margin: 18px; font-size: 22px }
 
-#search{ float: right;margin: 4px 8px 4px 0px; border: 1px solid #ccc }
+#search{float:right;margin: 8px 8px 8px 0px; border: 1px solid #ccc }
 
-#main-main{ display:block; list-style:none outside;     float: left;}
+.search-input{float:left;padding: 8px 5px; }
+
+.search-input > input {border:none;font-size:22px;}
+
+.search-icon{float:left; padding: 10px 5px 9px 0px;}
+
+#main-main{ display:block;list-style:none outside;float:left;}
 
 .main-content{ min-height:300px}
 
@@ -105,11 +111,10 @@ MEDIA QUERIES
 		</ul>
 
 		<div id="search">
-			<div style="float:left"><input type="text" name="search"></div>
-			<div style="float:left"><i class="fa fa-search  w3-text-teal" style="font-size:50px"></i></div>
+			<div class="search-input"><input type="text" name="search"></div>
+			<div class="search-icon"><i class="fa fa-search  w3-text-teal" style="font-size:30px"></i></div>
 		</div>
 	</nav>
-
 	 <!-- <div class="container-fluid"> -->
 
 	<section class="main-content container-fluid">
