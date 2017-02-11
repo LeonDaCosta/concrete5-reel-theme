@@ -1,3 +1,4 @@
-# Concrete5 Reel Theme
+# Concrete5.7+ Reel Theme
+----------
 
-Reel is a Concrete5 theme for version 5.7+ that is design for a content driven website.
+Reel is a Concrete5 theme and set of packages for Concrete5 version 5.7+ that is designed to be used to create content driven websites.
