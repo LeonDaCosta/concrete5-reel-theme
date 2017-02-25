@@ -1,5 +1,5 @@
 <?php
-namespace Concrete\Package\ThemeReel;
+namespace Concrete\Package\Reel;
 
 use Package;
 
@@ -7,8 +7,8 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
 
 class Controller extends Package
 {
-	protected $pkgHandle = 'theme_reel';
-	protected $appVersionRequired = '5.7.3';
+	protected $pkgHandle = 'reel';
+	protected $appVersionRequired = '5.7.1';
 	protected $pkgVersion = '0.0.1';
 	protected $pkgAllowsFullContentSwap = true;
 
