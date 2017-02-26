@@ -21,5 +21,10 @@ class Controller extends Package
 	{
     	return t("Reel");
 	}
+
+	public function install()
+	{
+		$pkg = parent::install();
+	}
 }
 ?>
