@@ -1,11 +1,12 @@
 <?php
 
-namespace Application\Theme\Reel;
+namespace Concrete\Package\Reel\Theme\Reel;
 
-use Concrete\Core\Area\Layout\Preset\Provider\ThemeProviderInterface;
 
-class PageTheme extends \Concrete\Core\Page\Theme\Theme implements ThemeProviderInterface
+class PageTheme extends \Concrete\Core\Page\Theme\Theme
 {
+  protected $pThemeGridFrameworkHandle = 'bootstrap3';
+
     public function registerAssets()
     {
         //$this->providesAsset('javascript', 'bootstrap/*');
@@ -23,14 +24,12 @@ class PageTheme extends \Concrete\Core\Page\Theme\Theme implements ThemeProvider
         //$this->providesAsset('css', 'blocks/feature/templates/hover_description');
         //$this->providesAsset('css', 'blocks/event_list');
 
-        $this->requireAsset('css', 'font-awesome');
-        $this->requireAsset('javascript', 'jquery');
-        $this->requireAsset('javascript', 'picturefill');
-        $this->requireAsset('javascript-conditional', 'html5-shiv');
-        $this->requireAsset('javascript-conditional', 'respond');
+        //$this->requireAsset('css', 'font-awesome');
+        //$this->requireAsset('javascript', 'jquery');
+        //$this->requireAsset('javascript', 'picturefill');
+        //$this->requireAsset('javascript-conditional', 'html5-shiv');
+        //$this->requireAsset('javascript-conditional', 'respond');
     }
-
-    protected $pThemeGridFrameworkHandle = 'bootstrap3';
 
     public function getThemeName()
     {
