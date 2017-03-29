@@ -1,7 +1,5 @@
 <?php
-
 namespace Concrete\Package\Reel\Theme\Reel;
-
 
 class PageTheme extends \Concrete\Core\Page\Theme\Theme
 {

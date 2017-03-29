@@ -1,8 +1,8 @@
 <?php
 defined('C5_EXECUTE') or die("Access Denied.");
-$this->inc('elements/header.php'); ?>
+$this->inc('inc/header.php'); ?>
 
-<section>
+<section style="background-color:blue">
 <?php
 $a = new Area('Main');
 $a->enableGridContainer();
@@ -17,4 +17,4 @@ $a->display($c);
 
 </section>
 
-<?php  $this->inc('elements/footer.php'); ?>
+<?php  $this->inc('inc/footer.php'); ?>

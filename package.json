@@ -1,0 +1,26 @@
+{
+  "name": "reel",
+  "version": "0.0.1",
+  "description": "Contrete5 package",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-uglify": "^2.1.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonDaCosta/concrete5-reel-theme.git"
+  },
+  "author": "Leon Da Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonDaCosta/concrete5-reel-theme/issues"
+  },
+  "homepage": "https://github.com/LeonDaCosta/concrete5-reel-theme#readme"
+}

@@ -1,11 +1,18 @@
+html, body {
+  font-size: 100%;
+  background: #f7f7f7;
+  margin: 0; }
+
 nav {
   position: fixed;
   background: none;
   z-index: 1000;
+  width: 100%; }
+
+header {
+  background: #FFF;
+  padding: 1em 0;
+  box-shadow: 0px 1px 9px 1px #cfcfcf;
+  border-top: 2px solid #CF1020;
   width: 100%;
-  border-bottom: 1px solid #000;
-}
-
-section {}
-
-footer {}
+  height: 80px; }
