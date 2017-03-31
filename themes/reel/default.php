@@ -16,5 +16,9 @@ $this->inc('inc/header.php'); ?>
 ?>
 
 </section>
+<section id="categories1">
+
+
+</sction>
 
 <?php  $this->inc('inc/footer.php'); ?>
