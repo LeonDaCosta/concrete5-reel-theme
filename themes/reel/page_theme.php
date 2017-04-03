@@ -7,8 +7,11 @@ class PageTheme extends \Concrete\Core\Page\Theme\Theme
 
     public function registerAssets()
     {
+      $this->requireAsset('css', 'font-awesome');
+      $this->requireAsset('javascript', 'jquery');
+      $this->requireAsset('css', 'bootstrap');
         //$this->providesAsset('javascript', 'bootstrap/*');
-        $this->providesAsset('css', 'bootstrap/*');
+        //$this->providesAsset('css', 'bootstrap/*');
         //$this->providesAsset('css', 'blocks/form');
         //$this->providesAsset('css', 'blocks/social_links');
         //$this->providesAsset('css', 'blocks/share_this_page');

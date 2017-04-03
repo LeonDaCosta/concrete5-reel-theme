@@ -5,15 +5,13 @@ $this->inc('inc/header_top.php');
   <nav>
     <section class="container">
         <div class="row">
-            <div class="col-sm-4 col-xs-6">
-
+            <div class="col-sm-12">
+                <ul class="nav">
+                  <li>Home</li>
+                  <li>Services</li>
+                  <li>About</li>
+                </ul>
             </div>
-            <div class="<?php if ($displayThirdColumn) { ?>col-sm-5 col-xs-6<?php } else { ?>col-sm-8 col-xs-6<?php } ?>">
-
-            </div>
-            <?php if ($displayThirdColumn) { ?>
-                <div class="col-sm-3 col-xs-12"><?php $as->display(); ?></div>
-            <?php } ?>
         </div>
     </section>
   </nav>
